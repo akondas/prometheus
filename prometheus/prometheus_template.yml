@@ -35,4 +35,4 @@ scrape_configs:
     metrics_path: '/actuator/prometheus'
 
     static_configs  :
-      - targets: ['YOUR_IP:8761','YOUR_IP:9091','YOUR_IP:9092','YOUR_IP:9060']
+      - targets: ['YOUR_IP:8761','YOUR_IP:9091','YOUR_IP:9092']
