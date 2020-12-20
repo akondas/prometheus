@@ -32,7 +32,7 @@ scrape_configs:
     # Override the global default and scrape targets from this job every 5 seconds.
     scrape_interval: 5s
 
-    metrics_path: '/actuator/prometheus'
+    metrics_path: '/metrics/prometheus'
 
     static_configs  :
-      - targets: ['172.18.0.1:8761','172.18.0.1:9091','172.18.0.1:9092']
+      - targets: ['192.168.233.5:8001']

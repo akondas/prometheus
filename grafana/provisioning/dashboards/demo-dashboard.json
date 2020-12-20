@@ -162,7 +162,7 @@
       "steppedLine": false,
       "targets": [
         {
-          "expr": "rate(verifyCustomerTimer_seconds_count[5m])",
+          "expr": "fraud_verifier_request_durations_histogram_seconds_bucket",
           "format": "heatmap",
           "instant": false,
           "interval": "",
